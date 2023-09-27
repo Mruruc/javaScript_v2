@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(25, 24, 24);
+  font-family: Arial;
+  font-size: medium;
+  font-weight: bold;
+  color: rgb(32, 3, 3);
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(114, 88, 54);
+  cursor: pointer;
+}
+
+.li-element{
+  flex-direction: column;
+  flex: 1;
+  background-color: rgb(42, 79, 43);
+  margin-top: 5px;
+  border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+
+body{
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+
+  color:white;
+  background-color: black;
+}
+
+
+.table,th,td{
+  
+  border:solid 1px red;
+  border-radius: 2px;
+  text-align: center;
+  
+}
+
+td{
+  border-radius:10px;
+   -ms-grid-row-span: "1";
+}
+th{
+  width: 100px;
+  column-span:"1";
+}
+
+.btn{
+  display: none;
+}

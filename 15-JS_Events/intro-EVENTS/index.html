@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_Events</title>
+    <style>
+        body{
+            background-color: rgb(32, 30, 30);
+            color: white;
+            font-size: 20px;
+            font-family: Arial;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="table" onload="displayTable();"></div>
+
+    <h1>JavaScript Events</h1>
+    <hr>
+    <div><a href="https://www.w3schools.com/js/js_events.asp">source</a></div> <br>
+    <div class="table"></div>
+    <pre>
+        Common HTML Events <br>
+Here is a list of some common HTML events: <br>
+
+
+Event	     Description <br>
+<hr>
+onchange	 An HTML element has been changed <br>
+onclick	     The user clicks an HTML element  <br>
+onmouseover	 The user moves the mouse over an HTML element  <br>
+onmouseout	 The user moves the mouse away from an HTML element  <br>
+onkeydown	 The user pushes a keyboard key  <br>
+onload	     The browser has finished loading the page <br> 
+    </pre>
+
+    <pre>
+        JavaScript Event Handlers
+Event handlers can be used to handle and verify user input, user actions, and browser actions:
+
+Things that should be done every time a page loads
+Things that should be done when the page is closed
+Action that should be performed when a user clicks a button
+Content that should be verified when a user inputs data
+And more ...
+Many different methods can be used to let JavaScript work with events:
+
+HTML event attributes can execute JavaScript code directly
+HTML event attributes can call JavaScript functions
+You can assign your own event handler functions to HTML elements
+You can prevent events from being sent or being handled
+And more ... 
+    </pre>
+
+    <button id="date", onclick="displayDate()">Date</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
