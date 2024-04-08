@@ -51,7 +51,7 @@ console.log(`Type: ${typeof dateValue} value: ${dateValue}`)
 
 }
 catch(ex){
-  console.log(`${ex.ame}  ${ex.message}`);
+  console.log(`${ex.name}  ${ex.message}`);
 }
 
 

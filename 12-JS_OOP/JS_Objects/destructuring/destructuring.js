@@ -2,7 +2,8 @@
 /**
  * Destructuring:
  * 
- *  Destructuring in JavaScript provides a way to extract multiple pieces of data from arrays and  *  objects and assign them to variables.
+ *  Destructuring in JavaScript provides a way to extract multiple pieces of data from arrays and
+ *   *  objects and assign them to variables.
  */
 
 

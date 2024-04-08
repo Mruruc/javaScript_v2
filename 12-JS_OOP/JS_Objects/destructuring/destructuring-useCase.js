@@ -1,6 +1,6 @@
 /**
  * Function Parameter Handling:
- *Instead of accessing object properties inside a function, you can destructure them in the function's parameters.
+ * Instead of accessing object properties inside a function, you can destructure them in the function's parameters.
 */
 
 const person = {
@@ -9,16 +9,17 @@ const person = {
     job: 'Engineer'
 };
 
-function disolayInfo({name,age,job}){
+function displayInfo({name,age,job}){
     console.log(` name:${name} \n age:${age} \n job:${job}`);
 }
 
-disolayInfo(person);
+displayInfo(person);
 
 console.log("=======================");
 /**
  * Multiple Return Values:
- * Functions in JavaScript can return only one value. However, by returning an object or an array, you can use * * destructuring to effectively return multiple values. 
+ * Functions in JavaScript can return only one value. 
+ * However, by returning an object or an array, you can use * * destructuring to effectively return multiple values. 
  */
 
 function getDimensions(){
@@ -58,7 +59,8 @@ console.log(tertiary);  // blue
 console.log('===============================');
 /**
  * Handling Nested Data:
- * Destructuring can be used recursively, making it easier to work with deeply nested data, like the kind you   * might get from an API or a database query.
+ * Destructuring can be used recursively, making it easier to work with deeply nested data, 
+ * like the kind you   * might get from an API or a database query.
  */
 
 const userProfile={
@@ -72,6 +74,7 @@ const userProfile={
         }
     }
 }
-console.log(userProfile.id,userProfile.user.address.country)
+console.log(userProfile.id,userProfile.user.address.country);
+
 const {id , user:{name, address:{city,country}}}=userProfile;
 console.log(id,country);

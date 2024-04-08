@@ -13,7 +13,7 @@ let content = {
 };
 console.log('Content: ');
 for (const key in content) {
-  console.table(key, content[key]);
+  console.log(key, content[key]);
 }
 
 console.log('=======================================');
@@ -25,7 +25,7 @@ const file = new File([JSON_content], 'customData', {
 });
 
 for (const key in file) {
-  console.table(key, file[key]);
+  console.log(key, file[key]);
 }
 
 console.log('=======================================');
@@ -41,7 +41,7 @@ const customResponse = new Response(file, {
 
 
 for (const key in customResponse) {
-  console.table(key, customResponse[key]);
+  console.log(key, customResponse[key]);
 }
 //console.log(customResponse.headers.get('content-type'));
 

@@ -4,7 +4,7 @@ let sum=0;
 for(let i=1; i<=5; i++){
     sum+=i;
 }
-console.log(sum);
+// console.log(sum);
 
 // for/in - loops through the properties of an object;
 
@@ -19,7 +19,7 @@ const car={
  */
 
 for (let key in car) {
-    console.log(car[key]);
+    console.log(`Key: ${key} --> Value:${car[key]}`);
 }
 
 /**

@@ -1,28 +1,28 @@
 /**
  *    JavaScript Objects are Variables that hold more than one value.
- *    The values are written as name:value pairs (name and value separated by a colon).
+ *    The values are written as key:value pairs (name and value separated by a colon).
  */
 
 //It is a common practice to declare objects with the const keyword.
 
-//The name:values pairs in JavaScript objects are called properties:
+//The key:values pairs in JavaScript objects are called properties:
 
 const car={
     color:"Red",
     brand:"BMW",
     date:new Date("1200-12-25")
 }
-// we can access the object properties:
+// we can access the object properties with dot notation:
 // 1)ObjectName.propertieName
 console.log(car.brand);
 
+// we also can access the object properties with bracket notation:
 // 2) ObjectName[propertieName];
-console.log(car["brand"]);
+console.log(car['brand']);
 console.log();
 
 /// Object Methods
-// JavaScript can have method as properties:
-
+// JavaScript objects can have method as properties:
 
 const human={
     name:"John",
@@ -66,7 +66,7 @@ for (const key in person1) {
 
 
 /// Adding New Properties
-// You can add new properties to an existing object by simply giving it a value.
+// we can add new properties to an existing object by simply giving it a value.
 person1.nationality="Kurdish";
 
 console.log("===================================");
@@ -91,7 +91,7 @@ for (const key in person1) {
 
  * The delete operator is designed to be used on object properties. It has no effect on variables or functions.
 
- * The delete operator should not be used on predefined JavaScript object properties. It can crash your application.
+ * The delete operator should not be used on predefined JavaScript object properties. It can crash our application.
  */
 
 
@@ -100,7 +100,7 @@ for (const key in person1) {
 // Any JavaScript object can be converted to an array using Object.values():
 
 const arr=Object.values(person1);
-console.log("=====================");
+console.log("==========Object to Array===========");
 for(let i=0; i<arr.length;i++){
     console.log(arr[i]);
 }
@@ -108,7 +108,7 @@ console.log(arr[0])
 
 /**
  *  Using JSON.stringify()
- * Any JavaScript object can be stringified (converted to a string) with the JavaScript function JSON.stringify():
+ *  Any JavaScript object can be stringified (converted to a string) with the JavaScript function JSON.stringify():
  */
 
 const sendtoDB=JSON.stringify(person1);

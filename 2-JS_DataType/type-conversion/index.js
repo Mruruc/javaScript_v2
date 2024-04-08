@@ -18,3 +18,13 @@ let age=25;
 console.log(typeof age);
 console.log(typeof age.toString());
 console.log(typeof String(age));
+
+
+
+let input2='25';
+
+
+if(typeof input2 === 'string'){
+    let inputInt=parseInt(input2);
+    console.log('Type: ',typeof inputInt);
+}

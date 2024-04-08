@@ -22,6 +22,8 @@
 
 const urlStringFormat = 'https://api.github.com/users/Mruruc';
 const url=new URL(urlStringFormat);
+url.searchParams.set('love-bank','Mr.Uruc')
+console.log(url.searchParams.get("love-bank"));
 
 /*
 for (const key in url) {
@@ -35,12 +37,13 @@ const request=new Request(url,{
   method: 'GET',
   cache: 'no-store'
 });
+/*
 for (const key in request) {
   console.log(key + ': ' + request[key]);
 } 
-
- // console.log(request);
-
+*/
+// console.log(request);
+/*
 fetch(request)
 .then((response)=>{
   if(!response.ok) throw new Error('Oppss');
@@ -53,3 +56,4 @@ fetch(request)
 .catch((error)=>{
   console.log(error)
 });         
+*/

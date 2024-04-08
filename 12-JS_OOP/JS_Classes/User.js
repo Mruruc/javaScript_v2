@@ -1,11 +1,16 @@
-export class User{
-    
-    constructor(id,userName,emailAddress){
+class User{
+
+    constructor(id,userName,password){
         this.id=id;
         this.userName=userName;
-        this.emailAddress=emailAddress;
+        this.password=password;
+        this.lastLogin=new Date();
     }
-
-
+    
+    getUserinfo(){
+       return `ID: ${this.id}\nUser Name: ${this.userName}\nPassword: ${this.password}\nLast Login: ${this.lastLogin}`;
+    }
 }
+
+export default User;
 

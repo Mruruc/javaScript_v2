@@ -6,8 +6,11 @@ The values must be of the same type to match.
 
 A strict comparison can only be true if the operands are of the same type.
 */
-const xday=new Date(2023,4,7).getDay();
-switch(xday){
+
+const days=new Date(2023,4,7).getDay();
+console.log(typeof(days));
+
+switch(days){
     case 0: 
         console.log("Sunday");
     break;
@@ -27,6 +30,8 @@ switch(xday){
         console.log("Friday");
     break;
     default:
-        console.log("Satuday");
+        console.log("Saturday");
 
 }
+
+

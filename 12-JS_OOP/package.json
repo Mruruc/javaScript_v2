@@ -1,0 +1,13 @@
+{
+  "name": "12-js_oop",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "OOP in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo love JS"
+  },
+  "author": "Mruruc",
+  "license": "ISC"
+}
+

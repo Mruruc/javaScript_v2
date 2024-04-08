@@ -3,16 +3,42 @@
  * A good example is JavaScript setTimeout()
  */
 
-setTimeout(()=>console.log("Somthing"),4000);
+/*
+console.log(`${new Date().getMinutes()}: ${new Date().getSeconds()}:${new Date().getMilliseconds()}`);
+
+setTimeout(
+    ()=>console.log(`${new Date().getMinutes()}: ${new Date().getSeconds()}:${new Date().getMilliseconds()}`),2000
+);
+
+console.log(`${new Date().getMinutes()}: ${new Date().getSeconds()}:${new Date().getMilliseconds()}`);
+
+*/
 
 //setInterval() 
 // allow us to specify a time and after every this will call a callback function
 
 function time(){
     let time=new Date();
-    console.log(time.getHours()+" : "+time.getMinutes()+" : "+time.getSeconds());
+    console.log(time.getMinutes()+" : "+time.getMinutes()+" : "+time.getSeconds());
 }
 
-//setInterval(time,1000);
+function inhibitor(second,timerID){
+    second *=1000;
+    setTimeout(()=>{
+        clearInterval(timerID);
+    },second);
+}
 
-/// every 1000 miliseconds will call the time() method.
+
+/// every 1000 milliseconds will call the time() method.
+let timerID=setInterval(time,1000);
+console.log(timerID);
+
+/// inhibitor(6,timerID);
+
+
+ 
+
+
+
+

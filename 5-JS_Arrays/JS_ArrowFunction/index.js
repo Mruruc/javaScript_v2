@@ -4,31 +4,31 @@
  * Arrow functions allow us to write shorter function syntax:
  */
 
-try{
+        try{
 
 
 
-function greetv1(name){
-    return `Hello ${name}`;
-}
+                function greet1(name){
+                    return `Hello ${name}`;
+                }
 
-console.log(greetv1("Waflo"));
+                console.log(greet1("Waflo"));
 
-const greetv2=name => `Hello ${name}`;
-console.log(`Greeting from V2 function: ${greetv2("Shipoo")}`);
+                const greet2=name => `Hello ${name}`;
+                console.log(`Greeting from V2 function: ${greet2("Shipoo")}`);
 
-const greetv3=(firstName,lastName)=>{
-    return `Hello ${firstName} ${lastName}`;
-}
+                const greet3=(firstName,lastName)=>{
+                    return `Hello ${firstName} ${lastName}`;
+                }
 
-console.log(
-    greetv3("Nello","Bombello")
-);
-
-
+                console.log(
+                    greet3("Nello","Bombello")
+                );
 
 
-}
-catch(error){
-    console.log(error.message);
-}
+
+
+        }
+        catch(error){
+            console.log(error.message);
+        }

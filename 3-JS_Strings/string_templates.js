@@ -2,7 +2,7 @@
  * Back-Tics Syntax
  * Template Literals use back-ticks (``) rather than the quotes ("") to define a string:
  * 
- * With template literals, you can use both single and double quotes inside a string:
+ * With template literals, we can use both single and double quotes inside a string:
  * 
  */
 ////Automatic replacing of variables with real values is called string interpolation.

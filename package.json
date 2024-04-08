@@ -1,3 +1,11 @@
 {
-    "type":"module"
+  "type": "module",
+  "name": "javascript_v2",
+  "description": "JavaScript Tutorial  And Applications.",
+  "version": "1.2.0",
+  "scripts": {
+    "test": "echo love JS!"
+  },
+  "author": "Mr.Uruc",
+  "license": "MIT"
 }

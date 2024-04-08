@@ -7,13 +7,25 @@ function myReject() {
 
 function test(x) {
   return new Promise(function (resolve, reject) {
-    if (x === 10) {
-      resolve(x);
-    } else {
-      reject();
-    }
+    setTimeout(()=>{
+      if (x === 10) {
+        resolve(x);
+      } else {
+        reject("While fetching data Error Ocurred!");
+      }
+    },2000);
   });
 }
+/// console.log(test(10));
+/*
+test(100).then(
+  (data)=>{
+    console.log("Here is Your data: " + data * 100);
+  }
+).catch((error)=>{
+  console.log(error);
+});
+*/
 
 //test(10).then(myResolve).catch(myReject);
 
@@ -32,11 +44,9 @@ function getWeather() {
     console.log(data);
   });     */
 
+  /*
 const url = 'https://api.github.com/users/Mruruc';
 
-
- /* 
- 
  fetch(url)
 .then((response)=>{
 
@@ -61,4 +71,5 @@ const url = 'https://api.github.com/users/Mruruc';
 });
 
 */
+
 

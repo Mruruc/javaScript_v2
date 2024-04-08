@@ -1,7 +1,7 @@
 // sort();
 /**
  *  The sort() method sorts an array alphabetically:
- * return the sorted array.
+ *  return the sorted array.
  */
 const fruits=["Banana", "Orange", "Apple", "Mango"];
 console.log(fruits.sort());
@@ -68,3 +68,6 @@ const cars = [
 
   cars.sort((a,b)=>a.year -b.year);
   console.log(cars);
+
+
+ 

@@ -7,15 +7,18 @@
 /**
  * The let keyword was introduced in ES6 (2015)
 
- * Variables defined with let cannot be Redeclared
+ * Variables defined with let cannot be Redeclare.
 
  * Variables defined with let must be Declared before use
 
  * Variables defined with let have Block Scope
  */
-// const=> for contstant value(final).
+// const=> for constant value(final).
 
-
+/*
+ ->> Declaring a variable means, reserving space for it.
+ ->> Initializing a variable means, assigning a value to it.(giving a value to it.)
+*/
 var name='Waflo';
 
 //After the declaration, the variable has no value (technically it is undefined).
@@ -29,15 +32,15 @@ const id=747805743085;
  * It's a good programming practice to declare all variables at the beginning of a script.
  */
 
-//You can declare many variables in one statement.
+//We can declare many variables in one statement.
 
 let f_name='John',l_name='Doe', pesel=465_465_4654;
 console.log(f_name,l_name,pesel);
+
 /**
  * JavaScript Operators
 JavaScript uses arithmetic operators ( + - * / ) to compute values:
  */
-
 
 
 /**
@@ -64,7 +67,7 @@ console.log(pigi1);
 /**
  * The const keyword was introduced in ES6 (2015)
 
- * Variables defined with const cannot be Redeclared
+ * Variables defined with const cannot be Redeclare.
 
  * Variables defined with const cannot be Reassigned
 
@@ -84,7 +87,7 @@ console.log(pigi1);
  * But you CAN:
 
  * Change the elements of constant array
- * Change the properties of constant object
+ * Change the properties of constant object.
  */
 
 let a,b,c;

@@ -11,9 +11,13 @@ export class Car{
         this._brand=brand.toUpperCase();
     }
 
+    carInfo(){
+        return `Brand:${this.brand}`;
+    }
+
 }
 
-export class Model extends Car{
+export class Bus extends Car{
 
     constructor(brand,model){
         super(brand);
@@ -27,5 +31,8 @@ export class Model extends Car{
         return this._model;
     }
 
-
+      // Override the carInfo method
+      carInfo() {
+        console.log(`Brand: ${this.brand},\nModel: ${this.model}`);
+    }
 }

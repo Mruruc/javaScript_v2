@@ -2,13 +2,6 @@
 JavaScript Tutorial  And Applications.
 
 
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/your-repo)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/your-username/your-repo)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/your-username/your-repo)
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/your-repo)
-![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/your-repo?style=social)
-
 This repository contains a collection of code snippets and tutorials related to JavaScript and web development. Each directory corresponds to a specific topic or concept, making it easy to navigate and learn about various aspects of JavaScript.
 
 ## Table of Contents
@@ -36,7 +29,7 @@ The repository is organized into directories, each focusing on a specific JavaSc
 - **8-JS_Maps**: Explains JavaScript Maps.
 - **9-JS_Functions**: Demonstrates JavaScript functions.
 - **11-JS_Callbacks**: Covers JavaScript callbacks.
-- **12-JS_OOP**: Introduces Object-Oriented Programming (OOP) in JavaScript.
+- **12-JS_OOP**: Introduces Object-Oriented Programming (OOP) in JavaScript (Updated v2).
 - **13-JS_Errors**: Deals with error handling in JavaScript.
 - **14-JS_DOM**: Discusses Document Object Model (DOM) manipulation with JavaScript.
 - **15-JS_Events**: Explains handling events in JavaScript.

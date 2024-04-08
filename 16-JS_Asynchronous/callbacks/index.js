@@ -9,4 +9,13 @@ function second(_callback){
  
 }
 
-second(first);
+function third(_callback){
+  console.log("This is the third function.");
+  _callback();
+}
+
+
+
+third(function(){
+  second(first);
+});

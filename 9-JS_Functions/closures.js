@@ -13,7 +13,10 @@
 
 const add=(function increaseByOne(){
     let counter=0;
-   return function() { counter=counter+1; return counter};
+   return function() {
+     counter=counter+1; 
+     return counter
+    };
 })();
 
 function print(){

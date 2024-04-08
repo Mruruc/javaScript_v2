@@ -46,6 +46,12 @@ function greetWorld(){
  console.log(multi);
 
  /**
+  * In JavaScript, functions are first-class member.
+  * This means that function can be treated as any data,
+  * which can be stored in variables or passed as arguments to other functions.
+  */
+
+ /**
   *  A function expression defines a function and assigns it to a variable. 
   *  The function is only accessible through that variable (unless you also name the function,
   *  in which case it becomes a named function expression).
@@ -56,9 +62,7 @@ function greetWorld(){
   *  If named, the name is local to the function body and can be useful for recursive calls or better stack traces.
   */
 
- const greeting=function(name){
-                console.log("Hello "+name)
-            };
+ const greeting=function(name){console.log("Hello "+name)};
 greeting("Shipooo");
 //The function above is actually an anonymous function (a function without a name).
 
@@ -72,8 +76,8 @@ console.log("Calling function with Varibale name: "+ division(8,2));
 // The Function() Constructor:
 //Functions can also be defined with a built-in JavaScript function constructor called Function().
 
-let exponention=new Function("a","b","return a ** b" );  
-console.log(exponention(5,2));
+let exponential=new Function("a","b","return a ** b" );  
+console.log(exponential(5,2));
 
 /**
  * Hoisting applies to variable declarations and to function declarations.
@@ -121,7 +125,7 @@ let text=myFunctionv2.toString();
 console.log(text);
 
 /**
- *  Arrow Functions
+ * Arrow Functions
  * Arrow functions allows a short syntax for writing function expressions.
  * You don't need the function keyword, the return keyword, and the curly brackets.
  */
@@ -173,6 +177,19 @@ function sumv4(...args){
 }
 
 console.log("Result: "+ sumv4(9,55,-111,-55,111));
+
+console.log("==========================");
+// we can use the spread operator to spread array element.
+
+function arraySpreadOperator(arg1,arg2,arg3){
+  console.log(arg1);
+  console.log(arg2);
+  console.log(arg3);
+}
+
+const params=['John','Alice','Bob'];
+arraySpreadOperator(params[0],params[1],params[2]);
+arraySpreadOperator(...params);
 
 console.log("==========================");
 

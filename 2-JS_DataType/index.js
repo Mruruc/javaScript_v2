@@ -1,10 +1,13 @@
 /**
  * JavaScript has 8 Datatypes
+ * A) Primitive Data Type:
 1. String
 2. Number
 3. Bigint
 4. Boolean
 5. Undefined
+
+B) Object Type:
 6. Null
 7. Symbol
 8. Object
@@ -20,8 +23,11 @@ The object data type can contain:
  */
 
 //1) String
+// Strings, like other primitives, are immutable,
+// so when we want to change even one letter in a string, in reality, we create a new string.
 
 let firstName="Waflo";
+console.log('Type :',typeof firstName);
 
 //2) Number:
 
@@ -32,6 +38,7 @@ let firstName="Waflo";
 
 let weight=56.3;
 let height=196;
+console.log('Type: ',typeof weight);
 
 //3) Bigint
 
@@ -39,9 +46,20 @@ let height=196;
 // that are too big to be represented by a normal JavaScript Number.
 
 let bigint=BigInt(455445454545412);
+let bigint2=1384783480000n;
+console.log('Type: ',typeof bigint2)
 console.log(typeof bigint);
 
 //4) Boolean
+
+/**
+ * Falsy Values:
+ * 0
+ * Nan
+ * empty string
+ * undefined
+ * null
+ */
 
 let x=true;
 console.log("TypeOf X: "+typeof x)
@@ -63,9 +81,9 @@ console.log(carV1);
 
 //It represents an intentional absence of any value or object.
 let xx=null;
-console.log(xx);
+console.log('Type NULL: ',typeof xx);
 
-// Symbol:
+// 7) Symbol:
 
 // The Symbol data type introduces a way to create unique and immutable identifiers in JavaScript.
 // Their uniqueness property makes them particularly useful for creating non-colliding object keys,
@@ -75,6 +93,7 @@ console.log(xx);
 // Every time you create a Symbol, it's guaranteed to be unique, regardless of the description or value you give it:
 const sym1 = Symbol("description");
 const sym2 = Symbol("description");
+console.log('Type :',typeof sym1);
 console.log("========================");
 console.log(sym1 === sym2); 
 /**
@@ -89,7 +108,7 @@ console.log(sym1 === sym2);
 
 //1) Object
 const customer={
-    name:"Waflo",
+    name:"John",
     age:2.3
 }
 console.log(customer);
