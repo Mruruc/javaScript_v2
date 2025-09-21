@@ -36,7 +36,8 @@ The repository is organized into directories, each focusing on a specific JavaSc
 - **16-JS_Asynchronous**: Covers asynchronous programming in JavaScript.
 - **17-JSON**: Focuses on working with JSON data.
 - **18-fetch_API**: Introduces the Fetch API for making HTTP requests.
-- **.vscode**: Contains VS Code configuration files.
+- **19-JS_Query-Params**: Manipulation and Access to Native Query Params.
+- **Interview-Questions_Notes**: ``Interview Questions`` and Notes.
 - **package.json**: Defines project dependencies.
 
 ## Getting Started
@@ -46,7 +47,7 @@ To get started with this repository, follow these steps:
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/Mruruc/javaScript_v2.git
    ```
 
 Navigate to the directory of the topic you want to explore. For example:
