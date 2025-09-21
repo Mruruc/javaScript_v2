@@ -37,7 +37,8 @@ The repository is organized into directories, each focusing on a specific JavaSc
 - **17-JSON**: Focuses on working with JSON data.
 - **18-fetch_API**: Introduces the Fetch API for making HTTP requests.
 - **19-JS_Query-Params**: Manipulation and Access to Native Query Params.
-- **Interview-Questions_Notes**: ``Interview Questions`` and Notes.
+- **Interview-Questions_Notes**: `Interview Questions` and Notes  
+  [Link](https://github.com/Mruruc/javaScript_v2/tree/master/Interview-Questions_Notes)
 - **package.json**: Defines project dependencies.
 
 ## Getting Started
